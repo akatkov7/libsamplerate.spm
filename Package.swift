@@ -13,7 +13,6 @@ let package = Package(
         .target(
             name: "Clibsamplerate",
             dependencies: [],
-            path: "src",
             cSettings: [
                 .define("HAVE_STDBOOL_H"),
                 .define("ENABLE_SINC_BEST_CONVERTER"),
