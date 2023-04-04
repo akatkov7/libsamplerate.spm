@@ -19,7 +19,8 @@ let package = Package(
                 .define("ENABLE_SINC_MEDIUM_CONVERTER"),
                 .define("ENABLE_SINC_FAST_CONVERTER"),
                 .define("PACKAGE", to: "\"libsamplerate\""),
-                .define("VERSION", to: "\"0.2.2\"")
+                .define("VERSION", to: "\"0.2.2\""),
+                .unsafeFlags(["-Os"])
             ]
         )
     ],
